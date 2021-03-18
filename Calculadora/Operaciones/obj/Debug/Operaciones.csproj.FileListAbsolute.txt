@@ -1,0 +1,7 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Operaciones\bin\Debug\Operaciones.dll.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Operaciones\bin\Debug\Operaciones.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Operaciones\bin\Debug\Operaciones.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Operaciones\obj\Debug\Operaciones.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Operaciones\obj\Debug\Operaciones.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Operaciones\obj\Debug\Operaciones.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Operaciones\obj\Debug\Operaciones.pdb

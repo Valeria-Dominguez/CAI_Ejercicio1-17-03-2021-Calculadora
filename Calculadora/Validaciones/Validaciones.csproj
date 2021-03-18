@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0A6F637-A397-48FB-91C2-24C86ED07312}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Calculadora</RootNamespace>
-    <AssemblyName>Calculadora</AssemblyName>
+    <ProjectGuid>{72A37DD2-CB8F-400D-8002-D9B7D308DEED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Validaciones</RootNamespace>
+    <AssemblyName>Validaciones</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,16 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Operaciones\Operaciones.csproj">
-      <Project>{8ed1efc6-18a4-4301-910c-b24f6e01c1dd}</Project>
-      <Name>Operaciones</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Validaciones\Validaciones.csproj">
-      <Project>{72a37dd2-cb8f-400d-8002-d9b7d308deed}</Project>
-      <Name>Validaciones</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
