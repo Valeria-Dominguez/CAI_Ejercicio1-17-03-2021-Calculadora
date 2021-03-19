@@ -24,8 +24,8 @@ namespace Calculadora.Inicio
                 decimal valor2 = 0;
                 do
                 {
-                    opcion = Calculadora.Validaciones.Validaciones.PedirStrNoVac("Ingrese una opción:\n"+
-                        opSum + " .Sumar\n"+
+                    opcion = Calculadora.Validaciones.Validaciones.PedirStrNoVac("Ingrese una opción:\n" +
+                        opSum + " .Sumar\n" +
                         opRest + " .Restar\n" +
                         opMult + " .Multiplicar\n" +
                         opDiv + " .Dividir\n" +
@@ -34,10 +34,17 @@ namespace Calculadora.Inicio
 
                     if (opcion == opSum || opcion == opRest || opcion == opMult || opcion == opDiv)
                     {
-                        valor1= Calculadora.Validaciones.Validaciones.PedirNum("Ingrese un número");
-                        valor2= Calculadora.Validaciones.Validaciones.PedirNum("Ingrese otro número");
+                        valor1 = Calculadora.Validaciones.Validaciones.PedirNum("Ingrese un número");
+                        valor2 = Calculadora.Validaciones.Validaciones.PedirNum("Ingrese otro número");                    
+
+                        Calculadora.Operaciones.Operaciones.Operar(valor1, valor2, opcion);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Debe ingresar una opción válida");
                     }
 
+                    /*
                     switch (opcion)
                     {
                         case opSum:
@@ -56,10 +63,10 @@ namespace Calculadora.Inicio
                             Console.WriteLine("Debe ingresar una opción válida");
                             break;
                     }
+                    */
                 }
                 while (opcion != opSal);
-            }
-            
+            }            
         }
     }
 }

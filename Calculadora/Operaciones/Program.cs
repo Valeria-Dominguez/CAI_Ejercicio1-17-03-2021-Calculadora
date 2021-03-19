@@ -8,6 +8,7 @@ namespace Calculadora.Operaciones
 {
     public static class Operaciones
     {
+        /*
         public static void Sumar(decimal valor1, decimal valor2)
         {
             decimal resultado = 0;
@@ -41,6 +42,37 @@ namespace Calculadora.Operaciones
                 resultado = valor1 / valor2;
                 Console.WriteLine("\nEl resultado es " + resultado + "\n");
             }
+        }
+        */
+
+        public static void Operar(decimal valor1, decimal valor2, string opcion)
+        {
+            decimal resultado = 0;
+
+            if (opcion =="D" && valor2 ==0)
+            {
+                Console.WriteLine("\nNo es posible dividir por cero\n");
+            }
+            else
+            {
+                if (opcion == "S")
+                {
+                    resultado = valor1 + valor2;
+                }
+                else if (opcion == "R")
+                {
+                    resultado = valor1 - valor2;
+                }
+                else if (opcion == "M")
+                {
+                    resultado = valor1 * valor2;
+                }
+                else if (opcion == "D" && valor2 !=0)
+                {
+                    resultado = valor1 / valor2;                   
+                }
+                Console.WriteLine("\nEl resultado es " + resultado + "\n");               
+            }            
         }
     }
 }
