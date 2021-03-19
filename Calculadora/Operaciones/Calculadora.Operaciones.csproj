@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{72A37DD2-CB8F-400D-8002-D9B7D308DEED}</ProjectGuid>
+    <ProjectGuid>{8ED1EFC6-18A4-4301-910C-B24F6E01C1DD}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Validaciones</RootNamespace>
-    <AssemblyName>Validaciones</AssemblyName>
+    <RootNamespace>Calculadora.Operaciones</RootNamespace>
+    <AssemblyName>Calculadora.Operaciones</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,6 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Validaciones\Calculadora.Validaciones.csproj">
+      <Project>{72a37dd2-cb8f-400d-8002-d9b7d308deed}</Project>
+      <Name>Calculadora.Validaciones</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

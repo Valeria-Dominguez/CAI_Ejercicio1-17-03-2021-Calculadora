@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D0A6F637-A397-48FB-91C2-24C86ED07312}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Calculadora</RootNamespace>
-    <AssemblyName>Calculadora</AssemblyName>
+    <RootNamespace>Calculadora.Inicio</RootNamespace>
+    <AssemblyName>Calculadora.Inicio</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,13 +50,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Operaciones\Operaciones.csproj">
+    <ProjectReference Include="..\Operaciones\Calculadora.Operaciones.csproj">
       <Project>{8ed1efc6-18a4-4301-910c-b24f6e01c1dd}</Project>
-      <Name>Operaciones</Name>
+      <Name>Calculadora.Operaciones</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Validaciones\Validaciones.csproj">
+    <ProjectReference Include="..\Validaciones\Calculadora.Validaciones.csproj">
       <Project>{72a37dd2-cb8f-400d-8002-d9b7d308deed}</Project>
-      <Name>Validaciones</Name>
+      <Name>Calculadora.Validaciones</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

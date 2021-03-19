@@ -1,0 +1,14 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Inicio.exe.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Inicio.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Inicio.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Operaciones.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Validaciones.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Operaciones.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Operaciones.dll.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Validaciones.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\bin\Debug\Calculadora.Validaciones.dll.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\obj\Debug\Calculadora.Inicio.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\obj\Debug\Calculadora.Inicio.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\obj\Debug\Calculadora.Inicio.csproj.CopyComplete
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\obj\Debug\Calculadora.Inicio.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio1-17-03-2021-Calculadora\Calculadora\Calculadora\obj\Debug\Calculadora.Inicio.pdb
